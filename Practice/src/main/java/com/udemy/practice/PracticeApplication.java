@@ -10,7 +10,7 @@ public class PracticeApplication {
 	public static void main(String[] args) {
 //		BinarySearchImpl binarySearchImpl = new BinarySearchImpl(new QuickSortAlgorithm());
 //		System.out.println(binarySearchImpl.binarySearch(new int[] {12, 3, 5}, 3));
-
+// This is my first change
 		ApplicationContext applicationContext = SpringApplication.run(PracticeApplication.class,
 				args);
 		BinarySearchImpl binarySearchImpl = applicationContext.getBean(BinarySearchImpl.class);
